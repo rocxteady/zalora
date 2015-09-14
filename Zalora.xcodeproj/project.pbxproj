@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D66FA634D157E3C521C604D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7448346AC21A25BDD4A9CCB9 /* libPods.a */; };
+		7C1BC2071BA3AB1100353080 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1BC2061BA3AB1100353080 /* ProductDetailViewController.m */; };
+		7C5E303E1BA5CCFF006C6EFA /* sort.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E303C1BA5CCFF006C6EFA /* sort.png */; };
+		7C5E303F1BA5CCFF006C6EFA /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E303D1BA5CCFF006C6EFA /* tick.png */; };
+		7C6BFCBA1BA4CD400026495A /* LastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BFCB91BA4CD400026495A /* LastCell.m */; };
+		7C6BFCBD1BA4D0AE0026495A /* tick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6BFCBB1BA4D0AE0026495A /* tick@2x.png */; };
+		7C6BFCBE1BA4D0AE0026495A /* tick@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6BFCBC1BA4D0AE0026495A /* tick@3x.png */; };
+		7C6BFCC11BA4D28B0026495A /* sort@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6BFCBF1BA4D28B0026495A /* sort@2x.png */; };
+		7C6BFCC21BA4D28B0026495A /* sort@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6BFCC01BA4D28B0026495A /* sort@3x.png */; };
+		7C6BFCC51BA4D8240026495A /* ProductImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BFCC41BA4D8240026495A /* ProductImageCell.m */; };
+		7C6BFCC81BA4D8320026495A /* ProductInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BFCC71BA4D8320026495A /* ProductInfoCell.m */; };
+		7C6BFCCB1BA4DFAD0026495A /* ProductDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BFCCA1BA4DFAD0026495A /* ProductDescriptionCell.m */; };
 		7CD2519A1BA30DCD00F67E48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD251991BA30DCD00F67E48 /* main.m */; };
 		7CD2519D1BA30DCD00F67E48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2519C1BA30DCD00F67E48 /* AppDelegate.m */; };
-		7CD251A01BA30DCD00F67E48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2519F1BA30DCD00F67E48 /* ViewController.m */; };
+		7CD251A01BA30DCD00F67E48 /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2519F1BA30DCD00F67E48 /* ProductsViewController.m */; };
 		7CD251A31BA30DCD00F67E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CD251A11BA30DCD00F67E48 /* Main.storyboard */; };
 		7CD251A51BA30DCD00F67E48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CD251A41BA30DCD00F67E48 /* Images.xcassets */; };
 		7CD251A81BA30DCD00F67E48 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD251A61BA30DCD00F67E48 /* LaunchScreen.xib */; };
 		7CD251B41BA30DCD00F67E48 /* ZaloraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD251B31BA30DCD00F67E48 /* ZaloraTests.m */; };
+		7CD251BF1BA3118C00F67E48 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD251BE1BA3118C00F67E48 /* ProductCell.m */; };
+		7CD251C21BA3120700F67E48 /* WebServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD251C11BA3120700F67E48 /* WebServiceClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +41,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7374F3E65FFDB5E88B3FEFB3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7448346AC21A25BDD4A9CCB9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C1BC2051BA3AB1100353080 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		7C1BC2061BA3AB1100353080 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		7C5E303C1BA5CCFF006C6EFA /* sort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sort.png; sourceTree = "<group>"; };
+		7C5E303D1BA5CCFF006C6EFA /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		7C6BFCB81BA4CD400026495A /* LastCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastCell.h; sourceTree = "<group>"; };
+		7C6BFCB91BA4CD400026495A /* LastCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastCell.m; sourceTree = "<group>"; };
+		7C6BFCBB1BA4D0AE0026495A /* tick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tick@2x.png"; sourceTree = "<group>"; };
+		7C6BFCBC1BA4D0AE0026495A /* tick@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tick@3x.png"; sourceTree = "<group>"; };
+		7C6BFCBF1BA4D28B0026495A /* sort@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sort@2x.png"; sourceTree = "<group>"; };
+		7C6BFCC01BA4D28B0026495A /* sort@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sort@3x.png"; sourceTree = "<group>"; };
+		7C6BFCC31BA4D8240026495A /* ProductImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductImageCell.h; sourceTree = "<group>"; };
+		7C6BFCC41BA4D8240026495A /* ProductImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductImageCell.m; sourceTree = "<group>"; };
+		7C6BFCC61BA4D8320026495A /* ProductInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductInfoCell.h; sourceTree = "<group>"; };
+		7C6BFCC71BA4D8320026495A /* ProductInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductInfoCell.m; sourceTree = "<group>"; };
+		7C6BFCC91BA4DFAD0026495A /* ProductDescriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDescriptionCell.h; sourceTree = "<group>"; };
+		7C6BFCCA1BA4DFAD0026495A /* ProductDescriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDescriptionCell.m; sourceTree = "<group>"; };
 		7CD251941BA30DCD00F67E48 /* Zalora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zalora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD251981BA30DCD00F67E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CD251991BA30DCD00F67E48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7CD2519B1BA30DCD00F67E48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CD2519C1BA30DCD00F67E48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7CD2519E1BA30DCD00F67E48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7CD2519F1BA30DCD00F67E48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CD2519E1BA30DCD00F67E48 /* ProductsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
+		7CD2519F1BA30DCD00F67E48 /* ProductsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
 		7CD251A21BA30DCD00F67E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CD251A41BA30DCD00F67E48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7CD251A71BA30DCD00F67E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7CD251AD1BA30DCD00F67E48 /* ZaloraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaloraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD251B21BA30DCD00F67E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CD251B31BA30DCD00F67E48 /* ZaloraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaloraTests.m; sourceTree = "<group>"; };
+		7CD251BD1BA3118C00F67E48 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		7CD251BE1BA3118C00F67E48 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		7CD251C01BA3120700F67E48 /* WebServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceClient.h; sourceTree = "<group>"; };
+		7CD251C11BA3120700F67E48 /* WebServiceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceClient.m; sourceTree = "<group>"; };
+		ECFA0C033F9F4246961306B1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D66FA634D157E3C521C604D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +98,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69D0D270800539E92E51C892 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7448346AC21A25BDD4A9CCB9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7CD2518B1BA30DCD00F67E48 = {
 			isa = PBXGroup;
 			children = (
 				7CD251961BA30DCD00F67E48 /* Zalora */,
 				7CD251B01BA30DCD00F67E48 /* ZaloraTests */,
 				7CD251951BA30DCD00F67E48 /* Products */,
+				9A9F843904354C7EDDEC5667 /* Pods */,
+				69D0D270800539E92E51C892 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +129,25 @@
 		7CD251961BA30DCD00F67E48 /* Zalora */ = {
 			isa = PBXGroup;
 			children = (
+				7CD251C01BA3120700F67E48 /* WebServiceClient.h */,
+				7CD251C11BA3120700F67E48 /* WebServiceClient.m */,
 				7CD2519B1BA30DCD00F67E48 /* AppDelegate.h */,
 				7CD2519C1BA30DCD00F67E48 /* AppDelegate.m */,
-				7CD2519E1BA30DCD00F67E48 /* ViewController.h */,
-				7CD2519F1BA30DCD00F67E48 /* ViewController.m */,
+				7CD2519E1BA30DCD00F67E48 /* ProductsViewController.h */,
+				7CD2519F1BA30DCD00F67E48 /* ProductsViewController.m */,
+				7C1BC2051BA3AB1100353080 /* ProductDetailViewController.h */,
+				7C1BC2061BA3AB1100353080 /* ProductDetailViewController.m */,
 				7CD251A11BA30DCD00F67E48 /* Main.storyboard */,
+				7CD251BD1BA3118C00F67E48 /* ProductCell.h */,
+				7CD251BE1BA3118C00F67E48 /* ProductCell.m */,
+				7C6BFCB81BA4CD400026495A /* LastCell.h */,
+				7C6BFCB91BA4CD400026495A /* LastCell.m */,
+				7C6BFCC31BA4D8240026495A /* ProductImageCell.h */,
+				7C6BFCC41BA4D8240026495A /* ProductImageCell.m */,
+				7C6BFCC61BA4D8320026495A /* ProductInfoCell.h */,
+				7C6BFCC71BA4D8320026495A /* ProductInfoCell.m */,
+				7C6BFCC91BA4DFAD0026495A /* ProductDescriptionCell.h */,
+				7C6BFCCA1BA4DFAD0026495A /* ProductDescriptionCell.m */,
 				7CD251A41BA30DCD00F67E48 /* Images.xcassets */,
 				7CD251A61BA30DCD00F67E48 /* LaunchScreen.xib */,
 				7CD251971BA30DCD00F67E48 /* Supporting Files */,
@@ -96,6 +158,12 @@
 		7CD251971BA30DCD00F67E48 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7C5E303C1BA5CCFF006C6EFA /* sort.png */,
+				7C6BFCBF1BA4D28B0026495A /* sort@2x.png */,
+				7C6BFCC01BA4D28B0026495A /* sort@3x.png */,
+				7C5E303D1BA5CCFF006C6EFA /* tick.png */,
+				7C6BFCBB1BA4D0AE0026495A /* tick@2x.png */,
+				7C6BFCBC1BA4D0AE0026495A /* tick@3x.png */,
 				7CD251981BA30DCD00F67E48 /* Info.plist */,
 				7CD251991BA30DCD00F67E48 /* main.m */,
 			);
@@ -119,6 +187,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9A9F843904354C7EDDEC5667 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECFA0C033F9F4246961306B1 /* Pods.debug.xcconfig */,
+				7374F3E65FFDB5E88B3FEFB3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CD251B71BA30DCD00F67E48 /* Build configuration list for PBXNativeTarget "Zalora" */;
 			buildPhases = (
+				C2B3BE0B8C594772506871E8 /* Check Pods Manifest.lock */,
 				7CD251901BA30DCD00F67E48 /* Sources */,
 				7CD251911BA30DCD00F67E48 /* Frameworks */,
 				7CD251921BA30DCD00F67E48 /* Resources */,
+				4680CFC7C2437220A69BF5E3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,7 +280,13 @@
 			files = (
 				7CD251A31BA30DCD00F67E48 /* Main.storyboard in Resources */,
 				7CD251A81BA30DCD00F67E48 /* LaunchScreen.xib in Resources */,
+				7C5E303F1BA5CCFF006C6EFA /* tick.png in Resources */,
 				7CD251A51BA30DCD00F67E48 /* Images.xcassets in Resources */,
+				7C5E303E1BA5CCFF006C6EFA /* sort.png in Resources */,
+				7C6BFCC21BA4D28B0026495A /* sort@3x.png in Resources */,
+				7C6BFCBE1BA4D0AE0026495A /* tick@3x.png in Resources */,
+				7C6BFCC11BA4D28B0026495A /* sort@2x.png in Resources */,
+				7C6BFCBD1BA4D0AE0026495A /* tick@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +299,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4680CFC7C2437220A69BF5E3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B3BE0B8C594772506871E8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7CD251901BA30DCD00F67E48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CD251A01BA30DCD00F67E48 /* ViewController.m in Sources */,
+				7C6BFCC81BA4D8320026495A /* ProductInfoCell.m in Sources */,
+				7CD251A01BA30DCD00F67E48 /* ProductsViewController.m in Sources */,
+				7C6BFCC51BA4D8240026495A /* ProductImageCell.m in Sources */,
+				7CD251BF1BA3118C00F67E48 /* ProductCell.m in Sources */,
+				7C6BFCBA1BA4CD400026495A /* LastCell.m in Sources */,
 				7CD2519D1BA30DCD00F67E48 /* AppDelegate.m in Sources */,
+				7C6BFCCB1BA4DFAD0026495A /* ProductDescriptionCell.m in Sources */,
+				7C1BC2071BA3AB1100353080 /* ProductDetailViewController.m in Sources */,
 				7CD2519A1BA30DCD00F67E48 /* main.m in Sources */,
+				7CD251C21BA3120700F67E48 /* WebServiceClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,21 +470,27 @@
 		};
 		7CD251B81BA30DCD00F67E48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECFA0C033F9F4246961306B1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Zalora/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		7CD251B91BA30DCD00F67E48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7374F3E65FFDB5E88B3FEFB3 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Zalora/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -416,6 +547,7 @@
 				7CD251B91BA30DCD00F67E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CD251BA1BA30DCD00F67E48 /* Build configuration list for PBXNativeTarget "ZaloraTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +556,7 @@
 				7CD251BC1BA30DCD00F67E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
